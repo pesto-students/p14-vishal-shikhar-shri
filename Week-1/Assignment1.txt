@@ -1,0 +1,84 @@
+Q1. What is a protocol stack, and how is it used in web development?
+Sol1. 
+A protocol stack is a group of protocols that all work together to allow software or hardware to perform a function.When data travels through the internet, it passes through multiple layers of protocols, each responsible for a specific task.
+For example,when the browser makes a DNS request, the follwing protocols are follwed in the respective layers:
+    a)Application Layer: DNS
+    b)Transport Layer: UDP
+    c)Network Layer: IP (v4)
+    d)Link Layer: Ethernet or Wireless LAN
+
+Q2.What are the different types of web servers, and how do they differ in terms of functionality and performance?
+
+Sol2.
+Presently, three web servers are the dominant forces in the web server market, namely:
+
+1)Apache.
+2)NGINX.
+3)Microsoft IIS
+
+Apache:
+    ->Customizable
+    ->Open Source
+    ->Highly Secure
+    ->Can run well on UNIX,linux,MacOS,Windows
+    ->equally efficient on almost every operating system
+    ->process based server, hence has the scope of having an overhead because of thread characteristics.
+
+IIS:
+    ->Proprietary
+    ->Runs only on Windows OS
+    ->Can be easily integrated with other Microsoft services like ASP, MS SQL etc.
+    ->not as much customisable like open-source web servers
+
+NGINX:
+
+    ->Open Source
+    ->can take care of a huge number of concurrent users with minimal resources in an efficient manner.
+    ->Has less support from developer community and documentation as compared to Apache.
+
+
+Q3.What is web hosting, and what are the different types of hosting services available for websites?
+
+Sol3.
+Hosting refers to the service of storing and making websites accessible on the internet.
+Different types of hosting available are as follows:-
+
+1)Shared Hosting:
+  Multiple websites share the same server resources, such as storage, memory, and processing power.
+
+2)Virtual Private Server Hosting:
+  It offers more resources and flexibility than shared hosting, as you get a virtual server dedicated to your website.
+
+3)Dedicated Hosting:
+  An entire physical server is dedicated solely to your website, offering the highest level of performance and customization.
+
+4)Cloud Hosting:
+  It uses multiple interconnected servers to provide scalability and reliability.Use Cloud Hosting when you want to handle varying traffic levels effectively, as cloud hosting can dynamically scale resources up or down.
+
+5)Managed WordPress Hosting:
+  Managed WordPress hosting is like having a maintenance team for your WordPress website.One should go with this type of hosting when he/she wants to focus on content creation without dealing with technical aspects.
+
+
+Q4.What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
+
+Sol4.
+Scaling webservers refers to the process of increasing a server's capacity to handle more users, traffic, and requests. It is crucial for a web application as a website becomes popular,it may experience increased load, leading to slower response times and potential crashes.Scaling helps ensure that the website remains accessible and responsive even during high traffic periods.
+
+    ->Vertical scaling: It involves increasing the resources (such as CPU, RAM, or storage) of an existing server.
+    ->Horizontal scaling: It involves adding more servers to the infrastructure.
+
+
+Q5.What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?
+
+Sol5.
+In simple terms, SEO means the process of improving your website to increase its visibility in Google, Microsoft Bing, and other search engines. Web developers can optimize their websites for better search engine rankings by following below steps:
+
+    ->Keyword Research: Find relevant and popular keywords related to the website's content.
+
+    ->Optimize Content: Incorporate the selected keywords and ensure the website's content is informative.
+
+    ->Meta Tags and Descriptions: Meta tags are snippets of code that tell search engines important information about your web page. These elements appear in search engine results.
+
+    ->Submit Sitemap: Submit the blog's sitemap to Google and Bing Webmaster Tools to ensure search engines can crawl and index the pages efficiently.
+    
+    ->Measure and Analyze: Use Google Webmaster Tools and Bing Webmaster Tools to monitor the blog's performance, track search queries, and identify any issues that need attention.
